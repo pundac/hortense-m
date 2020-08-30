@@ -1,0 +1,2 @@
+class ILove < ApplicationRecord
+end

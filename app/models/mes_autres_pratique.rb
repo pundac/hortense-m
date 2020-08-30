@@ -1,0 +1,2 @@
+class MesAutresPratique < ApplicationRecord
+end
