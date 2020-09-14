@@ -1,21 +1,23 @@
-<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
-    <%=link_to "Home", root_path, class: "nav-link" %> <span class="sr-only">(current)</span></a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<nav class=" navbar-expand navbar-light color">
+  <div class="navbar-collapse" id="navbarColor05">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-            <%=link_to "Yoga", yogas_path, class: "nav-link" %>
-      </li>
-      <li class="nav-item">  
-           <%= link_to "Mes pratiques", mes_autres_pratiques_path, class: "nav-link" %>
-       </li>
-       <li class="nav-item">  
-            <%= link_to "I love", i_loves_path, class: "nav-link" %>
+      <li class="nav-item ">
+        <%=link_to "Home", root_path, class: "nav-link" %> <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
+    <div class=" d-flex justify-content-end collapse navbar-collapse ">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <%=link_to "Yoga", yogas_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+        <%=link_to "Mes pratiques", mes_autres_pratiques_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "I love", i_loves_path, class: "nav-link" %>
+        </li>
+      </ul>
+    </div>
 </nav>
