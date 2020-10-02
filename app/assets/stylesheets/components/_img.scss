@@ -8,15 +8,19 @@
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center;
-    // background-color: #3841b3;
+    
     text-align: center;
     letter-spacing: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    -moz-box-shadow: inset 0px 850px 500px -500px #fff;
+    -webkit-box-shadow: inset 0px 850px 500px -500px #fff;
+    -o-box-shadow: inset 0px 850px 500px -500px #fff;
+    box-shadow: inset 0px 850px 500px -760px #fff;
 }
+
 .punchline{
     color: white;
     font-size: 20px;
@@ -24,4 +28,21 @@
 }
 h1 {
     color: white;
+}
+
+.illustration1{
+    background-image:  asset-url('bole.JPG');
+    width: 50%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.illustration2{
+    background-image:  asset-url('carte.JPG');
+    width: 60%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
