@@ -26,17 +26,18 @@
     font-size: 20px;
     font-family: 'Kaushan Script', cursive;
 }
-h1, h2 {
-    
-    text-shadow: 1px 0 15px rgba(0, 0, 0, 0.3);
 
-}
+
+
 h1 {
     color: black;
     background-color:  rgb(193, 165, 214);
+    text-shadow: 1px 0 15px rgba(0, 0, 0, 0.3);
 }
 h2 {
-    font-size: 30%;
+    font-size: 50%;
+    
+
 }
 .sketch-highlight {
     position:relative;
@@ -44,7 +45,7 @@ h2 {
 .sketch-highlight:before{
     
     content:"";
-  background-color: rgb(193, 165, 214);
+  background-color: rgb(248, 248, 207);
   width:100%;
   height:1em;
   position:absolute;
@@ -71,3 +72,7 @@ h2 {
     background-repeat: no-repeat;
     display: flex;
 }
+
+  .fa-heart{
+      color:  red;
+  }

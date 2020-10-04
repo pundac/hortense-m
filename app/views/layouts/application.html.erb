@@ -10,16 +10,16 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="/assets/favicon-32x32.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-
+    <script src="https://kit.fontawesome.com/1e549b2bd3.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <%= render 'shared/navbar' %>
-  
- 
-    
     <%= yield %>
     <%= render 'shared/footer' %>
   </body>
