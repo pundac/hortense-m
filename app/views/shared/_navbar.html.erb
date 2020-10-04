@@ -3,7 +3,11 @@
   <div class="navbar-collapse" id="navbarColor05">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <%=link_to "Home", root_path, class: "nav-link" %> <span class="sr-only">(current)</span></a>
+      
+      <%= link_to root_path do %>
+      <%= image_tag "logo final.png" %>
+      <% end %>
+      
       </li>
     </ul>
   </div>
